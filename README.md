@@ -16,7 +16,7 @@
 9）贝叶斯优化器（bayes optimizer，python可直接调api），随着采样参数训练次数的增多，通过先验分布求出后验分布，从而得到估计的最佳参数）     
 
 
-### Methods Dealing With Underfitting
+### Methods Dealing With Underfitting           
 1) 增加参数，比如由于模型非线性太强，可以增加多项式特征提升模型复杂度，或使用kernel函数升纬使得模型在高纬度线性可分（参考svm）     
 2）增加神经网络层数（也是增加参数的一种手段）     
 3）减少正则化参数          
